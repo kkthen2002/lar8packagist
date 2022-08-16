@@ -1,4 +1,4 @@
-<!-- MyVendor\contactform\src\resources\views\contact.blade.php -->
+<!-- Kkthen2002\contactform\src\resources\views\contact.blade.php -->
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -10,7 +10,7 @@
     </head>
         <body>
     
-    <!-- MyVendor\contactform\src\resources\views\contact.blade.php -->
+    <!-- Kkthen2002\contactform\src\resources\views\contact.blade.php -->
         @if(Session::has('message'))
             {{Session::get("message")}}
         @endif

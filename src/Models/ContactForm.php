@@ -1,8 +1,9 @@
 <?php
 
-    // MyVendor\Contactform\src\Models\ContactForm.php
 
-    namespace MyVendor\Contactform\Models;
+    // Kkthen2002\Contactform\src\Models\ContactForm.php
+
+    namespace Kkthen2002\Contactform\Models;
 
     use Illuminate\Database\Eloquent\Model;
 

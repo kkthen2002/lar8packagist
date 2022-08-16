@@ -1,9 +1,8 @@
 <?php
 
+    // Kkthen2002\contactform\src\ContactFormServiceProvider.php
 
-    // MyVendor\contactform\src\ContactFormServiceProvider.php
-
-    namespace MyVendor\contactform;
+    namespace Kkthen2002\contactform;
 
     use Illuminate\Support\ServiceProvider;
 
@@ -11,13 +10,13 @@
     {
         public function boot()
         {
-            // MyVendor\contactform\src\ContactFormServiceProvider.php
+            // Kkthen2002\contactform\src\ContactFormServiceProvider.php
             $this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
-            // MyVendor\contactform\src\ContactFormServiceProvider.php
+            // Kkthen2002\contactform\src\ContactFormServiceProvider.php
             $this->loadViewsFrom(__DIR__.'/resources/views', 'contactform');
 
-            // MyVendor\contactform\src\ContactFormServiceProvider.php
+            // Kkthen2002\contactform\src\ContactFormServiceProvider.php
             $this->loadMigrationsFrom(__DIR__.'/Database/migrations');
         }
         public function register()

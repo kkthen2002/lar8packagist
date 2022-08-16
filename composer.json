@@ -1,16 +1,16 @@
 {
-    "name": "myvendor/contactform",
+    "name": "kkthen2002/contactform",
     "description": "A contact form package for laravel",
     "authors": [
         {
-            "name": "kk",
-            "email": "kkthen@hotmail.com"
+            "name": "kkthen",
+            "email": "kkthen2002@gmail.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "MyVendor\\contactform\\": "src/"
+            "Kkthen2002\\contactform\\": "src/"
         }
     }
 }

@@ -1,8 +1,11 @@
 <?php
 
-    // // MyVendor\Contactform\src\Database\migrations\*_create_contact_table.php
+    // Kkthen2002\Contactform\src\Database\migrations\*_create_contact_table.php
+
     use Illuminate\Support\Facades\Schema;
+
     use Illuminate\Database\Schema\Blueprint;
+
     use Illuminate\Database\Migrations\Migration;
 
     class CreateContactTable extends Migration

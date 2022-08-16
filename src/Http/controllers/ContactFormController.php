@@ -1,15 +1,18 @@
 <?php
 
+    // Kkthen2002\Contactform\src\Http\Controllers\ContactFormController.php
 
-    // MyVendor\Contactform\src\Http\Controllers\ContactFormController.php
-
-    namespace MyVendor\Contactform\Http\Controllers;
+    namespace Kkthen2002\Contactform\Http\Controllers;
 
     use App\Http\Controllers\Controller;
 
+
+
     use Illuminate\Http\Request;
 
-    use MyVendor\Contactform\Models\ContactForm;
+
+
+    use Kkthen2002\Contactform\Models\ContactForm;
 
     class ContactFormController extends Controller
     {
